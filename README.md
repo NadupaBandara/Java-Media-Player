@@ -32,3 +32,9 @@ public abstract class AudioFile {
     public abstract void play();
     public abstract String getInfo();
 }
+
+### 1️⃣ Creating the `AudioFile` Class
+herit from AudioFile and implement specific behaviors:
+
+SampledFile → A gen
+
