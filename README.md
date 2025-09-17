@@ -31,8 +31,9 @@ public abstract class AudioFile {
 
     public abstract void play();
     public abstract String getInfo();
-}
-2️⃣ Creating the SampledFile, WAVFile, and TaggedFile Classes
+}```
+
+### 2️⃣ Creating the SampledFile, WAVFile, and TaggedFile Classes
 These classes inherit from AudioFile and implement specific behaviors:
 
 SampledFile → A generic audio file representation
