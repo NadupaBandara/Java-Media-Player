@@ -17,7 +17,7 @@ The project is modular and demonstrates **object-oriented principles**, the **Fa
 ## 🧱 Project Structure
 The development process is split into five main parts:
 
-### 1️⃣ Creating the `AudioFile` Class
+1️⃣ Creating the `AudioFile` Class
 This is the base abstract class that defines shared properties and methods for all types of audio files.  
 It includes metadata such as file path and abstract methods for playing the file and retrieving information.
 
@@ -33,7 +33,7 @@ public abstract class AudioFile {
     public abstract String getInfo();
 }```
 
-### 2️⃣ Creating the SampledFile, WAVFile, and TaggedFile Classes
+2️⃣ Creating the SampledFile, WAVFile, and TaggedFile Classes
 These classes inherit from AudioFile and implement specific behaviors:
 
 SampledFile → A generic audio file representation
